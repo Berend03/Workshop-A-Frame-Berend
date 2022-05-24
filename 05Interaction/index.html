@@ -33,8 +33,10 @@
           dur: 500;"
         animation__mouseleave="
           property: components.material.material.color; 
-          type: vec2 {x: 1, y: -2}; 
+          type: color; 
           to: red; 
+          type: array;
+          default: [1, 2, 3];
           startEvents: mouseleave; 
           dur: 500;">  
       </a-box>
